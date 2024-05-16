@@ -16,12 +16,13 @@ Assembled firmware available in:
 └── uImage.gk7205v210
 ```
 
+- [AKA IP Camera Module CH-T31](ch_t31.md)
+
 
 ### List of known and supported devices
 
 ```
-XM     IVG-G3S           GK7205V210   IMX307    ATBM6032i_USB    NOR_16M   w/ext wifi board
-AKA    CamHi-T31         T31L         GC2083    MT7601U_USB      NOR_8M    in progress
-
+XM     IVG-G3S    GK7205V210   IMX307    ATBM6032i_USB    NOR_16M   w/ext wifi board
+AKA    CH-T31     T31L         GC2083    MT7601U_USB      NOR_8M    in progress
 ```
 
