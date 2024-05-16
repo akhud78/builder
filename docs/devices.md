@@ -18,7 +18,20 @@ Assembled firmware available in:
 
 - [AKA IP Camera Module CH-T31](ch_t31.md)
 
+```
+- uImage: [1786KB/2048KB]
+- rootfs.squashfs: [4384KB/5120KB]
+- Build time: 06:52
+Copying files to local archive
 
+Assembled firmware available in:
+/mnt/IOTA/DATA/proj/builder/archive/t31_lite_aka-ch/202405161933
+├── openipc.t31-nor-lite.tgz
+├── rootfs.squashfs.t31
+├── rootfs.t31.tar
+└── uImage.t31
+
+```
 ### List of known and supported devices
 
 ```
