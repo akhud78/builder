@@ -21,5 +21,7 @@ Assembled firmware available in:
 
 ```
 XM     IVG-G3S           GK7205V210   IMX307    ATBM6032i_USB    NOR_16M   w/ext wifi board
+AKA    CamHi-T31         T31L         GC2083    MT7601U_USB      NOR_8M    in progress
+
 ```
 
