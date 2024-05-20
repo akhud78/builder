@@ -1,6 +1,6 @@
 ## Devices
 
-- [XM IP Camera Module IVG-G3S](ivg_g3s.md)
+- <u>XM IP Camera Module IVG-G3S</u>
 
 ```
 - uImage: [1814KB/2048KB]
@@ -16,7 +16,7 @@ Assembled firmware available in:
 └── uImage.gk7205v210
 ```
 
-- [AKA IP Camera Module CH-T31](ch_t31.md)
+- <u>AKA IP Camera Module CH-T31</u>
 
 ```
 - uImage: [1786KB/2048KB]
@@ -31,6 +31,17 @@ Assembled firmware available in:
 ├── rootfs.t31.tar
 └── uImage.t31
 
+- uImage: [1785KB/2048KB]
+- rootfs.squashfs: [4736KB/5120KB]
+- Build time: 06:42
+Copying files to local archive
+
+Assembled firmware available in:
+/mnt/IOTA/DATA/proj/builder/archive/t31_lite_aka-ch/202405162122
+├── openipc.t31-nor-lite.tgz
+├── rootfs.squashfs.t31
+├── rootfs.t31.tar
+└── uImage.t31
 ```
 ### List of known and supported devices
 
