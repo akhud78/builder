@@ -1,6 +1,14 @@
 ## Devices
 
-- <u>XM IP Camera Module IVG-G3S</u>
+### List of known and supported devices
+
+```
+XM     IVG-G3S    GK7205V210   IMX307    ATBM6032i_USB    NOR_16M   w/ext wifi board
+AKA    CH-T31     T31L         GC2083    MT7601U_USB      NOR_8M    in progress
+```
+### Images
+
+- XM IVG-G3S
 
 ```
 - uImage: [1814KB/2048KB]
@@ -16,7 +24,7 @@ Assembled firmware available in:
 └── uImage.gk7205v210
 ```
 
-- <u>AKA IP Camera Module CH-T31</u>
+- AKA CH-T31
 
 ```
 - uImage: [1786KB/2048KB]
@@ -43,10 +51,5 @@ Assembled firmware available in:
 ├── rootfs.t31.tar
 └── uImage.t31
 ```
-### List of known and supported devices
 
-```
-XM     IVG-G3S    GK7205V210   IMX307    ATBM6032i_USB    NOR_16M   w/ext wifi board
-AKA    CH-T31     T31L         GC2083    MT7601U_USB      NOR_8M    in progress
-```
 
