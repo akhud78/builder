@@ -32,19 +32,6 @@ Assembled firmware available in:
 ├── rootfs.gk7205v200.tar
 ├── rootfs.squashfs.gk7205v200
 └── uImage.gk7205v200
-
-
-- uImage: [1814KB/2048KB]
-- rootfs.squashfs: [5112KB/5120KB]
-- Build time: 04:33
-Copying files to local archive
-
-Assembled firmware available in:
-/mnt/IOTA/DATA/proj/builder/archive/gk7205v200_lite_aka-ch-v1/202405211413
-├── openipc.gk7205v200-nor-lite.tgz
-├── rootfs.gk7205v200.tar
-├── rootfs.squashfs.gk7205v200
-└── uImage.gk7205v200
 ```
 #### AKA CH v2
 ```
