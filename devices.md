@@ -20,7 +20,6 @@ XM       IVG-G3S     GK7205V210  IMX307  ATBM6032i_USB  NOR_16M   w/ext wifi boa
 ### Images
 
 #### YUCHENG F10H55W3AS
-
 ```
 - uImage: [1816KB/2048KB]
 - rootfs.squashfs: [6348KB/8192KB]
@@ -34,9 +33,7 @@ Assembled firmware available in:
 ├── rootfs.squashfs.gk7205v300
 └── uImage.gk7205v300
 ```
-
 #### AKA CH v1
-
 ```
 - uImage: [1814KB/2048KB]
 - rootfs.squashfs: [5080KB/5120KB]
@@ -49,7 +46,6 @@ Assembled firmware available in:
 ├── rootfs.gk7205v200.tar
 ├── rootfs.squashfs.gk7205v200
 └── uImage.gk7205v200
-
 ```
 #### AKA CH v2
 ```
@@ -65,7 +61,6 @@ Assembled firmware available in:
 ├── rootfs.squashfs.gk7205v200
 └── uImage.gk7205v200
 ```
-
 #### AKA CH-T31 v1
 ```
 - uImage: [1786KB/2048KB]
@@ -94,9 +89,7 @@ Assembled firmware available in:
 ├── rootfs.t31.tar
 └── uImage.t31
 ```
-
 #### XM IVG-G3S
-
 ```
 - uImage: [1814KB/2048KB]
 - rootfs.squashfs: [4968KB/5120KB]
