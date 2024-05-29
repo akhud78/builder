@@ -26,11 +26,11 @@ XM       IVG-G3S     GK7205V210  IMX307  ATBM6032i_USB  NOR_16M   w/ext wifi boa
 ```
 - uImage: [1816KB/2048KB]
 - rootfs.squashfs: [6348KB/8192KB]
-- Build time: 05:24
+- Build time: 05:28
 Copying files to local archive
 
 Assembled firmware available in:
-/mnt/IOTA/DATA/proj/builder/archive/gk7205v300_ultimate_yucheng-f10h55w3as/202405281101
+/mnt/IOTA/DATA/proj/builder/archive/gk7205v300_ultimate_yucheng-f10h55w3as/202405291039
 ├── openipc.gk7205v300-nor-ultimate.tgz
 ├── rootfs.gk7205v300.tar
 ├── rootfs.squashfs.gk7205v300
