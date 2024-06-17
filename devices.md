@@ -53,6 +53,10 @@ XM       IVG-G3S         GK7205V210  IMX307  ATBM6032i_USB  NOR_16M   w/ext wifi
 
 ```
 - uImage: [1855KB/2048KB]
+- rootfs.squashfs: [7928KB/8192KB]
+- archive/gk7205v300_ultimate_yucheng-f10h55w3as-dev/202406171726
+
+- uImage: [1855KB/2048KB]
 - rootfs.squashfs: [7924KB/8192KB]
 - archive/gk7205v300_ultimate_yucheng-f10h55w3as-dev/202406071031
 
