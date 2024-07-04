@@ -35,9 +35,10 @@ XM       IVG-G3S         GK7205V210  IMX307  ATBM6032i_USB  NOR_16M   w/ext wifi
 - [releases](https://github.com/akhud78/builder/releases)
 
 #### XM IVG-HP203Y-AE
-`./builder.sh hi3516cv300_ultimate_xm_ivg_hp203y_ae`
 
 - hi3516cv300_ultimate_xm-ivg-hp203y-ae-nor.tgz
+
+`./builder.sh hi3516cv300_ultimate_xm_ivg_hp203y_ae`
 
 ```
 - uImage: [1727KB/2048KB]
@@ -46,8 +47,9 @@ XM       IVG-G3S         GK7205V210  IMX307  ATBM6032i_USB  NOR_16M   w/ext wifi
 ```
 
 #### YUCHENG F10H55W3AS-DEV
-- Experimental: opencv3
+
 - gk7205v300_ultimate_yucheng-f10h55w3as-dev-nor.tgz
+- opencv3
 
 `$ ./builder.sh gk7205v300_ultimate_yucheng-f10h55w3as-dev`
 
@@ -58,15 +60,18 @@ XM       IVG-G3S         GK7205V210  IMX307  ATBM6032i_USB  NOR_16M   w/ext wifi
 ```
 
 #### YUCHENG F10H55W3AS
-- Stable version
+
 - gk7205v300_ultimate_yucheng-f10h55w3as-nor.tgz
+- gesftpserver, qrparse, easy.cgi, ethaddr
+
 
 `$ ./builder.sh gk7205v300_ultimate_yucheng-f10h55w3as`
 
 ```
 - uImage: [1816KB/2048KB]
-- rootfs.squashfs: [6260KB/8192KB]
-- archive/gk7205v300_ultimate_yucheng-f10h55w3as/202406211652
+- rootfs.squashfs: [6284KB/8192KB]
+- archive/gk7205v300_ultimate_yucheng-f10h55w3as/202407021834
+
 ```
 
 #### AKA CH v1
@@ -77,14 +82,14 @@ XM       IVG-G3S         GK7205V210  IMX307  ATBM6032i_USB  NOR_16M   w/ext wifi
 ```
 #### AKA CH v2
 
-`$ ./builder.sh gk7205v200_lite_aka-ch-v2`
+- ngrep, mdns, mquery, gesftpserver, qrparse, easy.cgi, ethaddr
 
-- ngrep, mdns, mquery, gesftpserver, qrparse
+`$ ./builder.sh gk7205v200_lite_aka-ch-v2`
 
 ```
 - uImage: [1814KB/2048KB]
-- rootfs.squashfs: [4788KB/5120KB]
-- archive/gk7205v200_lite_aka-ch-v2/202406031459
+- rootfs.squashfs: [4792KB/5120KB]
+- archive/gk7205v200_lite_aka-ch-v2/202407021724
 ```
 #### AKA CH-T31 v1
 ```
