@@ -49,29 +49,31 @@ XM       IVG-G3S         GK7205V210  IMX307  ATBM6032i_USB  NOR_16M   w/ext wifi
 #### YUCHENG F10H55W3AS-DEV
 
 - gk7205v300_ultimate_yucheng-f10h55w3as-dev-nor.tgz
-- opencv3
+- Majestic: master+51c4d54, 2024-07-01
+- Packages: gesftpserver, qrparse, opencv3
+- easy.cgi: Build: Jul  4 2024 @ 14:17:41
 
 `$ ./builder.sh gk7205v300_ultimate_yucheng-f10h55w3as-dev`
 
 ```
 - uImage: [1855KB/2048KB]
-- rootfs.squashfs: [7644KB/8192KB]
-- archive/gk7205v300_ultimate_yucheng-f10h55w3as-dev/202407011626
+- rootfs.squashfs: [7640KB/8192KB]
+- archive/gk7205v300_ultimate_yucheng-f10h55w3as-dev/202407041900
 ```
 
 #### YUCHENG F10H55W3AS
 
 - gk7205v300_ultimate_yucheng-f10h55w3as-nor.tgz
-- gesftpserver, qrparse, easy.cgi, ethaddr
-
+- Majestic: master+51c4d54, 2024-07-01
+- Packages: gesftpserver, qrparse
+- easy.cgi: Build: Jul  4 2024 @ 14:17:41
 
 `$ ./builder.sh gk7205v300_ultimate_yucheng-f10h55w3as`
 
 ```
 - uImage: [1816KB/2048KB]
 - rootfs.squashfs: [6284KB/8192KB]
-- archive/gk7205v300_ultimate_yucheng-f10h55w3as/202407021834
-
+- archive/gk7205v300_ultimate_yucheng-f10h55w3as/202407041844
 ```
 
 #### AKA CH v1
