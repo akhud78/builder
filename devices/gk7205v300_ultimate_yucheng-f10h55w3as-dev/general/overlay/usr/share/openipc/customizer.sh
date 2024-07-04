@@ -27,17 +27,18 @@ cli -s .jpeg.qfactor 80
 # Set wlan device and credentials if need
 #
 fw_setenv wlandev mt7601u-gk7205v300-camhi
-#fw_setenv wlanssid Router
-#fw_setenv wlanpass 12345678
-
+fw_setenv wlanssid dlink_313
+fw_setenv wlanpass 12358134
+fw_setenv ipaddr 192.168.78.10
 fw_setenv netaddr_fallback 192.168.1.10
-#fw_setenv ethaddr 00:AA:0A:AC:25:86
+
 fw_setenv gpio_reset 42
 
-adduser viewer -s /bin/false -D -H
-echo viewer:123456 | chpasswd
+adduser agent -s /bin/false -D -H
+echo agent:123456 | chpasswd
 #
 # fix sd card format
 sed -i 's/exfat/vfat/g' /var/www/cgi-bin/fw-sdcard.cgi
+sed -i 's/exfat/vfat/g' /var/www/cgi-bin/tool-sdcard.cgi
 
 exit 0

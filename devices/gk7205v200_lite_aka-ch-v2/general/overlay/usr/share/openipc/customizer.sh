@@ -21,7 +21,7 @@ cli -s .nightMode.minThreshold 2000
 cli -s .nightMode.maxThreshold 20000
 #
 cli -s .video0.codec h264
-cli -s .video0.size 1024x576
+# cli -s .video0.size 1024x576
 cli -s .mjpeg.size 640x360
 cli -s .jpeg.qfactor 80
 #
@@ -35,10 +35,10 @@ fw_setenv wlandev mt7601u-gk7205v200-camhi
 fw_setenv netaddr_fallback 192.168.1.10
 # fw_setenv gpio_reset 52
 
-adduser viewer -s /bin/false -D -H
-echo viewer:123456 | chpasswd
+adduser agent -s /bin/false -D -H
+echo agent:123456 | chpasswd
 
 # fix sd card format
 sed -i 's/exfat/vfat/g' /var/www/cgi-bin/fw-sdcard.cgi
-
+sed -i 's/exfat/vfat/g' /var/www/cgi-bin/tool-sdcard.cgi
 exit 0
