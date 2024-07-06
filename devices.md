@@ -12,7 +12,14 @@ AKA      CH-T31 v1       T31L        GC2083  MT7601U_USB    NOR_8M    in progres
 AKA      CH-T31 v2       T31L        GC2083  RTL8188EU_USB  NOR_8M    in progress
 XM       IVG-G3S         GK7205V210  IMX307  ATBM6032i_USB  NOR_16M   w/ext wifi board
 ```
-### Upgrading 
+### Links
+- [releases](https://github.com/akhud78/builder/releases)
+- [firmware](https://github.com/OpenIPC/firmware)
+- [majestic-webui](https://github.com/OpenIPC/majestic-webui)
+
+
+### Upgrading
+- [Upgrading firmware](https://github.com/OpenIPC/wiki/blob/master/en/sysupgrade.md)
 - SD
 ```
 # soc=$(fw_printenv -n soc)
@@ -30,15 +37,22 @@ XM       IVG-G3S         GK7205V210  IMX307  ATBM6032i_USB  NOR_16M   w/ext wifi
 # sysupgrade --kernel=uImage.${soc} --rootfs=rootfs.squashfs.${soc} -z --force_ver
 ```
 
-### Links
-- [releases](https://github.com/akhud78/builder/releases)
-- [majestic-webui](https://github.com/OpenIPC/majestic-webui)
+### Create a Permanent Storage for Downloaded Bundles
+- Add to `~/.profile`
+```
+# OpenIPC
+BR2_DL_DIR="${HOME}/buildroot_dl"
+[ ! -d "$BR2_DL_DIR" ] && mkdir -p $BR2_DL_DIR
+export BR2_DL_DIR
+```
+- Delete directory or replace archive to update package
+- [Source code archive URLs](https://docs.github.com/en/repositories/working-with-files/using-files/downloading-source-code-archives#source-code-archive-urls) - how to download `archive.tar.gz`
 
 #### YUCHENG F10H55W3AS
 
 - gk7205v300_ultimate_yucheng-f10h55w3as-nor.tgz
 - Majestic: [master+5588001, 2024-06-02](https://t.me/openipc_dev/113457) - jpeg is OK
-- WebUI: [majestic-webui-e2cacd9, 2024-06-03](https://github.com/OpenIPC/majestic-webui/archive/e2cacd982aff2fcf44e504edc53fb82c3a9aa30e.tar.gz) - without visual_motion
+- WebUI: [majestic-webui-e2cacd9, 2024-06-03](https://github.com/OpenIPC/majestic-webui/archive/e2cacd982aff2fcf44e504edc53fb82c3a9aa30e.tar.gz) - `archive.tar.gz` without visual_motion
 - easy.cgi: Build: Jul  4 2024 @ 14:17:41
 - packages: gesftpserver, qrparse
 
