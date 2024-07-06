@@ -46,13 +46,13 @@ BR2_DL_DIR="${HOME}/buildroot_dl"
 export BR2_DL_DIR
 ```
 - Delete directory or replace archive to update package
-- [Source code archive URLs](https://docs.github.com/en/repositories/working-with-files/using-files/downloading-source-code-archives#source-code-archive-urls) - how to download `archive.tar.gz`
+- [Source code archive URLs](https://docs.github.com/en/repositories/working-with-files/using-files/downloading-source-code-archives#source-code-archive-urls) - how to download `tar.gz` archive
 
 #### YUCHENG F10H55W3AS
 
 - gk7205v300_ultimate_yucheng-f10h55w3as-nor.tgz
 - Majestic: [master+5588001, 2024-06-02](https://t.me/openipc_dev/113457) - jpeg is OK
-- WebUI: [majestic-webui-e2cacd9, 2024-06-03](https://github.com/OpenIPC/majestic-webui/archive/e2cacd982aff2fcf44e504edc53fb82c3a9aa30e.tar.gz) - `archive.tar.gz` without visual_motion
+- WebUI: [majestic-webui-e2cacd9, 2024-06-03](https://github.com/OpenIPC/majestic-webui/archive/e2cacd982aff2fcf44e504edc53fb82c3a9aa30e.tar.gz) - `tar.gz` archive without visual_motion
 - easy.cgi: Build: Jul  4 2024 @ 14:17:41
 - packages: gesftpserver, qrparse
 
