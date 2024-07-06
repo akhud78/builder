@@ -27,8 +27,8 @@ cli -s .jpeg.qfactor 80
 # Set wlan device and credentials if need
 #
 fw_setenv wlandev mt7601u-gk7205v300-camhi
-fw_setenv wlanssid dlink_313
-fw_setenv wlanpass 12358134
+fw_setenv wlanssid Keenetic-7801
+fw_setenv wlanpass action78
 fw_setenv ipaddr 192.168.78.10
 fw_setenv netaddr_fallback 192.168.1.10
 
@@ -38,7 +38,7 @@ adduser agent -s /bin/false -D -H
 echo agent:123456 | chpasswd
 #
 # fix sd card format
-sed -i 's/exfat/vfat/g' /var/www/cgi-bin/fw-sdcard.cgi
+# sed -i 's/exfat/vfat/g' /var/www/cgi-bin/fw-sdcard.cgi
 sed -i 's/exfat/vfat/g' /var/www/cgi-bin/tool-sdcard.cgi
 
 exit 0
