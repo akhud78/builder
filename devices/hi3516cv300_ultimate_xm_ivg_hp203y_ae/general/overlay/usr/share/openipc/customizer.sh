@@ -19,10 +19,9 @@ cli -s .nightMode.minThreshold 2000
 cli -s .nightMode.maxThreshold 20000
 #
 cli -s .video0.codec h264
-cli -s .video0.size 1024x576
 cli -s .mjpeg.size 640x360
 cli -s .jpeg.qfactor 80
-
+# cli -s .jpeg.size 1024x576
 #
 # Set wlan device and credentials if need
 #
@@ -35,8 +34,8 @@ fw_setenv netaddr_fallback 192.168.1.10
 
 fw_setenv osmem 56M
 
-adduser viewer -s /bin/false -D -H
-echo viewer:123456 | chpasswd
+adduser agent -s /bin/false -D -H
+echo agent:123456 | chpasswd
 #
 
 exit 0

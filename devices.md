@@ -69,12 +69,15 @@ export BR2_DL_DIR
 - gk7205v300_ultimate_yucheng-f10h55w3as-dev-nor.tgz
 - Majestic: master+5588001, 2024-06-02
 - WebUI: majestic-webui-e2cacd9
-- easy.cgi: Build: Jul  4 2024 @ 14:17:41
-- packages: gesftpserver, qrparse, opencv3
+- packages: gesftpserver, easy.cgi, opencv34
 
 `$ ./builder.sh gk7205v300_ultimate_yucheng-f10h55w3as-dev`
 
 ```
+- uImage: [1855KB/2048KB]
+- rootfs.squashfs: [8160KB/10240KB]
+- archive/gk7205v300_ultimate_yucheng-f10h55w3as-dev/202407221621
+
 - uImage: [1855KB/2048KB]
 - rootfs.squashfs: [7644KB/8192KB]
 - archive/gk7205v300_ultimate_yucheng-f10h55w3as-dev/202407060945
@@ -83,13 +86,15 @@ export BR2_DL_DIR
 #### XM IVG-HP203Y-AE
 
 - hi3516cv300_ultimate_xm-ivg-hp203y-ae-nor.tgz
+- Majestic: [master+5588001, 2024-06-02](https://t.me/openipc_dev/113461)
+- packages: gesftpserver, opencv3
 
 `./builder.sh hi3516cv300_ultimate_xm_ivg_hp203y_ae`
 
 ```
-- uImage: [1727KB/2048KB]
-- rootfs.squashfs: [6396KB/8192KB]
-- archive/hi3516cv300_ultimate_xm_ivg_hp203y_ae/202405291849
+- uImage: [1728KB/2048KB]
+- rootfs.squashfs: [7544KB/8192KB]
+- archive/hi3516cv300_ultimate_xm_ivg_hp203y_ae/202407091755
 ```
 
 #### AKA CH v1

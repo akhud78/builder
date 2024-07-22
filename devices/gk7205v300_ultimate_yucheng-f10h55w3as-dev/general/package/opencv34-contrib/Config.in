@@ -1,0 +1,10 @@
+menuconfig BR2_PACKAGE_OPENCV34_CONTRIB
+	bool "opencv34-contrib"
+	depends on BR2_PACKAGE_OPENCV34
+	help
+	  OpenCV (Open Source Computer Vision) is a library of
+	  programming functions for real time computer vision.
+
+	  http://opencv.org/
+
+

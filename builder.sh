@@ -125,6 +125,9 @@ cp -afv ${BUILDER_DIR}/devices/${DEVICE}/*  ${FIRMWARE_DIR}
 echo_c 33 "\nBuilding the device"
 make BOARD=${DEVICE}
 
+# echo_c 33 "\nReBuilding easy"
+# make BOARD=${DEVICE} br-easy-rebuild
+
 copy_to_archive
 echo_c 35 "\nDone"
 cd "$BUILDER_DIR"
