@@ -61,7 +61,7 @@ export BR2_DL_DIR
 ```
 - uImage: [1816KB/2048KB]
 - rootfs.squashfs: [6288KB/8192KB]
-- builder/archive/gk7205v300_ultimate_yucheng-f10h55w3as/202407060909
+- archive/gk7205v300_ultimate_yucheng-f10h55w3as/202407060909
 ```
 
 #### YUCHENG F10H55W3AS-DEV
@@ -76,11 +76,7 @@ export BR2_DL_DIR
 ```
 - uImage: [1855KB/2048KB]
 - rootfs.squashfs: [8160KB/10240KB]
-- archive/gk7205v300_ultimate_yucheng-f10h55w3as-dev/202407221621
-
-- uImage: [1855KB/2048KB]
-- rootfs.squashfs: [7644KB/8192KB]
-- archive/gk7205v300_ultimate_yucheng-f10h55w3as-dev/202407060945
+- archive/gk7205v300_ultimate_yucheng-f10h55w3as-dev/202407221656
 ```
 
 #### XM IVG-HP203Y-AE
