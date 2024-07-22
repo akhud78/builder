@@ -69,15 +69,14 @@ export BR2_DL_DIR
 - gk7205v300_ultimate_yucheng-f10h55w3as-dev-nor.tgz
 - Majestic: master+5588001, 2024-06-02
 - WebUI: majestic-webui-e2cacd9
-- easy.cgi: Build: Jul  4 2024 @ 14:17:41
-- packages: gesftpserver, opencv3 + objdetect
+- packages: gesftpserver, easy.cgi, opencv34
 
 `$ ./builder.sh gk7205v300_ultimate_yucheng-f10h55w3as-dev`
 
 ```
 - uImage: [1855KB/2048KB]
-- rootfs.squashfs: [7752KB/8192KB]
-- archive/gk7205v300_ultimate_yucheng-f10h55w3as-dev/202407191536
+- rootfs.squashfs: [8160KB/10240KB]
+- archive/gk7205v300_ultimate_yucheng-f10h55w3as-dev/202407221440
 
 - uImage: [1855KB/2048KB]
 - rootfs.squashfs: [7644KB/8192KB]

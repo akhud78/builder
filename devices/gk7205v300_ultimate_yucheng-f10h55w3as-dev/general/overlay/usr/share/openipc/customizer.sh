@@ -41,4 +41,7 @@ echo agent:123456 | chpasswd
 # sed -i 's/exfat/vfat/g' /var/www/cgi-bin/fw-sdcard.cgi
 sed -i 's/exfat/vfat/g' /var/www/cgi-bin/tool-sdcard.cgi
 
+# Create symlinks
+ln -s /usr/sbin/easy.cgi /var/www/cgi-bin/easy.cgi
+
 exit 0

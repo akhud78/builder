@@ -160,3 +160,10 @@
 /usr/lib/libopencv_bgsegm.so.3.4.19
 /usr/lib/libopencv_bgsegm.so.3.4
 /usr/lib/libopencv_bgsegm.so
+/usr/lib/libopencv_structured_light.so.3.4.19
+/usr/lib/libopencv_structured_light.so.3.4
+/usr/lib/libopencv_structured_light.so
+/usr/lib/libopencv_dpm.so.3.4.19
+/usr/lib/libopencv_dpm.so.3.4
+/usr/lib/libopencv_dpm.so
+
