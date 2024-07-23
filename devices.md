@@ -69,14 +69,15 @@ export BR2_DL_DIR
 - gk7205v300_ultimate_yucheng-f10h55w3as-dev-nor.tgz
 - Majestic: master+5588001, 2024-06-02
 - WebUI: majestic-webui-e2cacd9
-- packages: gesftpserver, easy.cgi, opencv34
+- easy.cgi: 1.0 Jul 23 2024 @ 10:13:56
+- packages: gesftpserver, opencv34
 
 `$ ./builder.sh gk7205v300_ultimate_yucheng-f10h55w3as-dev`
 
 ```
 - uImage: [1855KB/2048KB]
 - rootfs.squashfs: [8160KB/10240KB]
-- archive/gk7205v300_ultimate_yucheng-f10h55w3as-dev/202407221656
+- archive/gk7205v300_ultimate_yucheng-f10h55w3as-dev/202407231036
 ```
 
 #### XM IVG-HP203Y-AE
@@ -88,6 +89,10 @@ export BR2_DL_DIR
 `./builder.sh hi3516cv300_ultimate_xm_ivg_hp203y_ae`
 
 ```
+- uImage: [1727KB/2048KB]
+- rootfs.squashfs: [8660KB/10240KB]
+- archive/hi3516cv300_ultimate_xm_ivg_hp203y_ae/202407231114
+
 - uImage: [1728KB/2048KB]
 - rootfs.squashfs: [7544KB/8192KB]
 - archive/hi3516cv300_ultimate_xm_ivg_hp203y_ae/202407091755
