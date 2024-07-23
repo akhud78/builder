@@ -37,5 +37,7 @@ fw_setenv osmem 56M
 adduser agent -s /bin/false -D -H
 echo agent:123456 | chpasswd
 #
+# Create symlinks
+ln -s /usr/sbin/easy.cgi /var/www/cgi-bin/easy.cgi
 
 exit 0

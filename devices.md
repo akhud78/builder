@@ -84,18 +84,15 @@ export BR2_DL_DIR
 
 - hi3516cv300_ultimate_xm-ivg-hp203y-ae-nor.tgz
 - Majestic: [master+5588001, 2024-06-02](https://t.me/openipc_dev/113461)
-- packages: gesftpserver, opencv3
+- easy.cgi: Build: Jul 23 2024 @ 12:10:30
+- packages: gesftpserver, opencv34
 
 `./builder.sh hi3516cv300_ultimate_xm_ivg_hp203y_ae`
 
 ```
-- uImage: [1727KB/2048KB]
-- rootfs.squashfs: [8660KB/10240KB]
-- archive/hi3516cv300_ultimate_xm_ivg_hp203y_ae/202407231114
-
 - uImage: [1728KB/2048KB]
-- rootfs.squashfs: [7544KB/8192KB]
-- archive/hi3516cv300_ultimate_xm_ivg_hp203y_ae/202407091755
+- rootfs.squashfs: [8660KB/10240KB]
+- archive/hi3516cv300_ultimate_xm_ivg_hp203y_ae/202407231206
 ```
 
 #### AKA CH v1
