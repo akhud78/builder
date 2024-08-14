@@ -31,7 +31,6 @@ fw_setenv wlanssid Sigma
 fw_setenv wlanpass 12345678
 fw_setenv ipaddr 192.168.78.10
 fw_setenv netaddr_fallback 192.168.1.10
-
 fw_setenv gpio_reset 42
 
 adduser agent -s /bin/false -D -H

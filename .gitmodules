@@ -1,3 +1,4 @@
-[submodule "devices/hi3516cv300_ultimate_xm_ivg_hp203y_ae/general/package/easy"]
-	path = devices/hi3516cv300_ultimate_xm_ivg_hp203y_ae/general/package/easy
+
+[submodule "devices/gk7205v300_ultimate_yucheng-f10h55w3as-dev/general/package/easy"]
+	path = devices/gk7205v300_ultimate_yucheng-f10h55w3as-dev/general/package/easy
 	url = https://github.com/akhud78/easy
