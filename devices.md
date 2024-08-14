@@ -5,12 +5,12 @@
 ```
 YUCHENG  F10H55W3AS      GK7205V300  IMX335  MT7601U_USB    NOR_16M   in progress
 YUCHENG  F10H55W3AS-DEV  GK7205V300  IMX335  MT7601U_USB    NOR_16M   in progress
+XM       IVG-G3S         GK7205V210  IMX307  ATBM6032i_USB  NOR_16M   w/ext wifi board
 XM       IVG-HP203Y-AE   HI3516CV300 IMX291                 NOR_16M   in progress
 AKA      CH v1           GK7205V200  IMX307  RTL8733BU      NOR_16M   in progress
 AKA      CH v2           GK7205V200  IMX307  MT7601U_USB    NOR_16M   in progress
 AKA      CH-T31 v1       T31L        GC2083  MT7601U_USB    NOR_8M    in progress
 AKA      CH-T31 v2       T31L        GC2083  RTL8188EU_USB  NOR_8M    in progress
-XM       IVG-G3S         GK7205V210  IMX307  ATBM6032i_USB  NOR_16M   w/ext wifi board
 ```
 ### Links
 - [releases](https://github.com/akhud78/builder/releases)
@@ -53,15 +53,16 @@ export BR2_DL_DIR
 - gk7205v300_ultimate_yucheng-f10h55w3as-nor.tgz
 - Majestic: [master+5588001, 2024-06-02](https://t.me/openipc_dev/113457) - jpeg is OK
 - WebUI: [majestic-webui-e2cacd9, 2024-06-03](https://github.com/OpenIPC/majestic-webui/archive/e2cacd982aff2fcf44e504edc53fb82c3a9aa30e.tar.gz) - `tar.gz` archive without visual_motion
-- easy.cgi: Build: Jul  4 2024 @ 14:17:41
-- packages: gesftpserver, qrparse
+- Wi-Fi credentials: Sigma 12345678
+- [easy.cgi](https://github.com/akhud78/easy): Aug 14 2024 @ 15:04:39
+- packages: gesftpserver
 
 `$ ./builder.sh gk7205v300_ultimate_yucheng-f10h55w3as`
 
 ```
 - uImage: [1816KB/2048KB]
 - rootfs.squashfs: [6288KB/8192KB]
-- archive/gk7205v300_ultimate_yucheng-f10h55w3as/202407060909
+- archive/gk7205v300_ultimate_yucheng-f10h55w3as/202408141808
 ```
 
 #### YUCHENG F10H55W3AS-DEV
@@ -69,15 +70,29 @@ export BR2_DL_DIR
 - gk7205v300_ultimate_yucheng-f10h55w3as-dev-nor.tgz
 - Majestic: master+5588001, 2024-06-02
 - WebUI: majestic-webui-e2cacd9
-- easy.cgi: 1.0 Jul 23 2024 @ 10:13:56
+- easy.cgi: Aug 14 2024 @ 15:04:39
 - packages: gesftpserver, opencv34
 
 `$ ./builder.sh gk7205v300_ultimate_yucheng-f10h55w3as-dev`
 
 ```
 - uImage: [1855KB/2048KB]
-- rootfs.squashfs: [8160KB/10240KB]
-- archive/gk7205v300_ultimate_yucheng-f10h55w3as-dev/202407231036
+- rootfs.squashfs: [8516KB/10240KB]
+- archive/gk7205v300_ultimate_yucheng-f10h55w3as-dev/202408141419
+```
+
+#### XM IVG-G3S
+- gk7205v210_lite_xm-ivg-g3s-nor.tgz
+- Majestic: [master+5588001, 2024-06-02](https://t.me/openipc_dev/113456) - lite
+- Wi-Fi credentials: Sigma 12345678
+- easy.cgi: Aug 14 2024 @ 15:04:39
+
+`$ ./builder.sh gk7205v210_lite_xm-ivg-g3s`
+
+```
+- uImage: [1814KB/2048KB]
+- rootfs.squashfs: [4972KB/5120KB]
+- archive/gk7205v210_lite_xm-ivg-g3s/202408141709
 ```
 
 #### XM IVG-HP203Y-AE
@@ -124,12 +139,6 @@ export BR2_DL_DIR
 - rootfs.squashfs: [5064KB/5120KB]
 - archive/t31_lite_aka-ch-v2/202405211318
 ```
-#### XM IVG-G3S
-- gk7205v210_lite_xm-ivg-g3s-nor.tgz
-```
-- uImage: [1814KB/2048KB]
-- rootfs.squashfs: [4968KB/5120KB]
-- archive/gk7205v210_lite_xm-ivg-g3s/202405281200
-```
+
 
 
