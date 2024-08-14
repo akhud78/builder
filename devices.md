@@ -76,6 +76,10 @@ export BR2_DL_DIR
 
 ```
 - uImage: [1855KB/2048KB]
+- rootfs.squashfs: [8524KB/10240KB]
+- archive/gk7205v300_ultimate_yucheng-f10h55w3as-dev/202408061512
+
+- uImage: [1855KB/2048KB]
 - rootfs.squashfs: [8160KB/10240KB]
 - archive/gk7205v300_ultimate_yucheng-f10h55w3as-dev/202407231036
 ```
