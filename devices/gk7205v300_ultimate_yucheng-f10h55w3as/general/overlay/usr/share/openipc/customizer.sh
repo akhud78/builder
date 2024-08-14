@@ -27,8 +27,8 @@ cli -s .jpeg.qfactor 80
 # Set wlan device and credentials if need
 #
 fw_setenv wlandev mt7601u-gk7205v300-camhi
-fw_setenv wlanssid dlink_313
-fw_setenv wlanpass 12358134
+fw_setenv wlanssid Sigma
+fw_setenv wlanpass 12345678
 fw_setenv ipaddr 192.168.78.10
 fw_setenv netaddr_fallback 192.168.1.10
 
