@@ -54,7 +54,7 @@ export BR2_DL_DIR
 - Majestic: [master+5588001, 2024-06-02](https://t.me/openipc_dev/113457) - jpeg is OK
 - WebUI: [majestic-webui-e2cacd9, 2024-06-03](https://github.com/OpenIPC/majestic-webui/archive/e2cacd982aff2fcf44e504edc53fb82c3a9aa30e.tar.gz) - `tar.gz` archive without visual_motion
 - Wi-Fi credentials: Sigma 12345678
-- [easy.cgi](https://github.com/akhud78/easy): Aug 14 2024 @ 15:04:39
+- [easy.cgi](https://github.com/akhud78/easy) 1.0 Aug 16 2024 @ 14:21:14
 - packages: gesftpserver
 
 `$ ./builder.sh gk7205v300_ultimate_yucheng-f10h55w3as`
@@ -62,7 +62,7 @@ export BR2_DL_DIR
 ```
 - uImage: [1816KB/2048KB]
 - rootfs.squashfs: [6288KB/8192KB]
-- archive/gk7205v300_ultimate_yucheng-f10h55w3as/202408151426
+- archive/gk7205v300_ultimate_yucheng-f10h55w3as/202408161441
 ```
 
 #### YUCHENG F10H55W3AS-DEV
