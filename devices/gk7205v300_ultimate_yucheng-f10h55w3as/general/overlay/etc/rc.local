@@ -12,6 +12,7 @@
 # By default this script does nothing.
 
 /usr/sbin/resetd &
+/usr/sbin/wpa_check &
 
 logger -p debug -t "$0" "$?"
 
