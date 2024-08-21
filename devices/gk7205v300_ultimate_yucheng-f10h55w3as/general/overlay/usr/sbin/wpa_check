@@ -1,0 +1,14 @@
+#!/bin/sh
+
+while [ true ]; do
+
+    wpa_status=$(wpa_cli  status | grep wpa_state | cut -d"=" -f2)
+    # echo "$wpa_status"
+    # ip -4 -o addr show wlan0 | awk '{print $4}' | cut -d'/' -f1
+    if test  "$wpa_status" = "SCANNING"; then
+        kill -s USR1 $(pgrep udhcpc)
+        # logger -p debug -t "$0" "$?"
+    fi
+
+    sleep 2.0
+done
