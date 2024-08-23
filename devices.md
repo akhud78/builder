@@ -86,13 +86,14 @@ export BR2_DL_DIR
 - Majestic: [master+5588001, 2024-06-02](https://t.me/openipc_dev/113456) - lite
 - Wi-Fi credentials: Sigma 12345678
 - easy.cgi: Aug 14 2024 @ 15:04:39
+- packages: MQTT broker
 
 `$ ./builder.sh gk7205v210_lite_xm-ivg-g3s`
 
 ```
 - uImage: [1814KB/2048KB]
-- rootfs.squashfs: [4968KB/5120KB]
-- archive/gk7205v210_lite_xm-ivg-g3s/202408211034
+- rootfs.squashfs: [4932KB/5120KB]
+- archive/gk7205v210_lite_xm-ivg-g3s/202408231657
 ```
 
 #### XM IVG-HP203Y-AE
