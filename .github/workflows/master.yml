@@ -53,8 +53,12 @@ jobs:
           - ssc337_lite_h3c-tc2101
           - ssc337_lite_tp-link-tapo-c110-v1
           - ssc337de_ultimate_foscam-x5
+          - ssc338q_fpv_emax-wyvern-link
           - ssc338q_fpv_openipc-urllc-aio
+          - ssc338q_fpv_openipc-mario-aio
+          - ssc338q_fpv_runcam-wifilink
           - t10_lite_hb-wifi-z6
+          - t10_lite_jvs-ingt10-gqs60ep
           - t20_ultimate_azarton-c1
           - t20_lite_ec37-t11
           - t31_lite_vstarcam-cs55
@@ -73,7 +77,6 @@ jobs:
           - t31_ultimate_azarton-c1-t31x
           - t31_ultimate_gcraftsman-gca50
           - t31_lite_zte-k540
-          - t10_lite_jvs-ingt10-gqs60ep
 
     steps:
       - name: Checkout source
@@ -83,10 +86,6 @@ jobs:
         run: |
           echo "nameserver 8.8.8.8" | sudo tee /etc/resolv.conf
           echo CACHE_DATE=$(date +%m) >> ${GITHUB_ENV}
-          git clone https://github.com/openipc/firmware --depth 1
-
-      - name: Dispatch platform
-        run: |
           INPUT=${{inputs.platform}}
           MATRIX=$(echo ${{matrix.platform}} | cut -d_ -f1)
           if [ -z ${INPUT} ] || [ ${INPUT} = ${MATRIX} ]; then
