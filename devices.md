@@ -17,24 +17,12 @@ AKA      CH-T31 v2       T31L        GC2083  RTL8188EU_USB  NOR_8M    in progres
 - [firmware](https://github.com/OpenIPC/firmware)
 - [majestic-webui](https://github.com/OpenIPC/majestic-webui)
 
-
-### Upgrading
-- [Upgrading firmware](https://github.com/OpenIPC/wiki/blob/master/en/sysupgrade.md)
-- SD
+### Install
+- Use Ubuntu 22.04
+- [Install Required Packages](https://github.com/OpenIPC/wiki/blob/master/en/source-code.md#install-required-packages)
 ```
-# soc=$(fw_printenv -n soc)
-# sysupgrade --kernel=/mnt/mmcblk0p1/uImage.${soc} --rootfs=/mnt/mmcblk0p1/rootfs.squashfs.${soc} -z --force_ver
-...
-# firstboot
-```
-- TFTP
-```
-# soc=$(fw_printenv -n soc)
-# serverip=192.168.1.40
-# cd /tmp
-# tftp -r rootfs.squashfs.${soc} -g ${serverip}
-# tftp -r uImage.${soc} -g ${serverip}
-# sysupgrade --kernel=uImage.${soc} --rootfs=rootfs.squashfs.${soc} -z --force_ver
+$ sudo apt-get install -y automake autotools-dev bc build-essential cpio tree \
+ curl file fzf git libncurses-dev libtool lzop make rsync unzip wget libssl-dev
 ```
 
 ### Create a Permanent Storage for Downloaded Bundles
@@ -48,6 +36,7 @@ export BR2_DL_DIR
 - Delete directory or replace archive to update package
 - [Source code archive URLs](https://docs.github.com/en/repositories/working-with-files/using-files/downloading-source-code-archives#source-code-archive-urls) - how to download `tar.gz` archive
 
+### Build
 #### YUCHENG F10H55W3AS
 
 - gk7205v300_ultimate_yucheng-f10h55w3as-nor.tgz
@@ -140,6 +129,23 @@ export BR2_DL_DIR
 - rootfs.squashfs: [5064KB/5120KB]
 - archive/t31_lite_aka-ch-v2/202405211318
 ```
-
+### Upgrading
+- [Upgrading firmware](https://github.com/OpenIPC/wiki/blob/master/en/sysupgrade.md)
+- SD
+```
+# soc=$(fw_printenv -n soc)
+# sysupgrade --kernel=/mnt/mmcblk0p1/uImage.${soc} --rootfs=/mnt/mmcblk0p1/rootfs.squashfs.${soc} -z --force_ver
+...
+# firstboot
+```
+- TFTP
+```
+# soc=$(fw_printenv -n soc)
+# serverip=192.168.1.40
+# cd /tmp
+# tftp -r rootfs.squashfs.${soc} -g ${serverip}
+# tftp -r uImage.${soc} -g ${serverip}
+# sysupgrade --kernel=uImage.${soc} --rootfs=rootfs.squashfs.${soc} -z --force_ver
+```
 
 
